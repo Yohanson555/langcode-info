@@ -1,0 +1,36 @@
+{
+    "name": "langcode-info",
+    "version": "1.0.0",
+    "description": "Lightweight module to get language info by: code, hex code or decimal code;",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "coverageReporters": [
+            "json",
+            "html"
+        ]
+    },
+    "author": "Yohanson555",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "bugs": {
+        "url": "https://github.com/Yohanson555/langcode-info/issues"
+    },
+    "homepage": "https://github.com/Yohanson555/langcode-info#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yohanson555/langcode-info.git"
+    },
+    "keywords": [
+        "language",
+        "lang",
+        "js",
+        "node",
+        "code"
+    ]
+}
