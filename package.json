@@ -1,6 +1,6 @@
 {
     "name": "langcode-info",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Lightweight module to get language info by: code, hex code or decimal code;",
     "main": "index.js",
     "scripts": {

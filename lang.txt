@@ -1,3 +1,4 @@
+0000 	0 	en-EN 	English (default)
 0004 	4 	zh-CHS 	Chinese – Simplified
 0401 	1025 	ar-SA 	Arabic – Saudi Arabia
 0402 	1026 	bg-BG 	Bulgarian – Bulgaria

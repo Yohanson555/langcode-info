@@ -1,4 +1,10 @@
 {
+    "0000": {
+        "name": "English (Default)",
+        "code": "en-EN",
+        "hex": "0000",
+        "dec": "0"
+    },
     "1001": {
         "name": "Arabic – Libya",
         "code": "ar-LY",
