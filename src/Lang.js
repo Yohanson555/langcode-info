@@ -35,6 +35,10 @@ class Lang {
         return this._code;
     }
 
+    lex() {
+        return this._code.replace(/\W|\s/g, "");
+    }
+
     name() {
         const arr = this._name.split(" – ");
 

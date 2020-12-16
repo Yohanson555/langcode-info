@@ -217,3 +217,9 @@ test('testing .dec() getter #3 - number value', () => {
 
     expect(l.dec()).toBe("1234");
 });
+
+test('testing .lex() getter #1', () => {
+    const l = new Lang({ code: "en-EN" });
+
+    expect(l.lex()).toBe("enEN");
+});
