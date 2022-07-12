@@ -1,4 +1,4 @@
-{
+const DecToHex:{[key: string]: string} = {
     "0": "0000",
     "4": "0004",
     "1025": "0401",
@@ -228,3 +228,5 @@
     "21514": "540A",
     "31748": "7C04"
 }
+
+export default DecToHex;

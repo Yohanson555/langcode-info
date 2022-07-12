@@ -17,3 +17,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 ### Added
 
 - tests for Lang.lex()
+
+## [1.1.0] - 2022-07-12
+
+### 
+- TypeScript support

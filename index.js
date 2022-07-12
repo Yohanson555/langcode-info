@@ -1,1 +1,1 @@
-module.exports = require('./src/LangInform');
+module.exports = require('./dist/LangInform');

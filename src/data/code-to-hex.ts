@@ -1,4 +1,4 @@
-{
+const CodeToHex:{[key: string]: string} = {
     "en-EN": "0000",
     "zh-CHS": "0004",
     "ar-SA": "0401",
@@ -228,3 +228,5 @@
     "es-US": "540A",
     "zh-CHT": "7C04"
 }
+
+export default CodeToHex;

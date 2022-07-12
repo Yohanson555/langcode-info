@@ -1,4 +1,6 @@
-{
+import { LangData } from "../Lang";
+
+const Languages:{[key:string]: LangData} = {
     "0000": {
         "name": "English (Default)",
         "code": "en-EN",
@@ -1368,3 +1370,5 @@
         "dec": "31748"
     }
 }
+
+export default Languages;
