@@ -22,3 +22,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 
 ### 
 - TypeScript support
+
+## [1.1.1] - 2022-07-12
+
+### 
+- Config changes
