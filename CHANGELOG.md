@@ -27,3 +27,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 
 ### 
 - Config changes
+
+## [1.1.2] - 2022-07-12
+
+### 
+- Rebuilded in ES6

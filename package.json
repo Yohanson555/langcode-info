@@ -1,6 +1,6 @@
 {
     "name": "langcode-info",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Lightweight module to get language info by: code, hex code or decimal code;",
     "main": "dist/LangInform.js",
     "typings": "dist/LangInform.d.ts",
