@@ -68,4 +68,4 @@ class LangInform {
   }
 }
 
-export default LangInform;
+module.exports = LangInform;

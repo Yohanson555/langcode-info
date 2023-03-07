@@ -1,37 +1,37 @@
 {
-    "name": "langcode-info",
-    "version": "1.1.2",
-    "description": "Lightweight module to get language info by: code, hex code or decimal code;",
-    "main": "dist/LangInform.js",
-    "typings": "dist/LangInform.d.ts",
-    "scripts": {
-        "test": "jest",
-        "build": "tsc"
-    },
-    "author": "Yohanson555",
-    "license": "MIT",
-    "devDependencies": {
-        "@types/jest": "^27.4.0",
-        "@types/node": "^17.0.21",
-        "jest": "^27.5.1",
-        "nodemon": "^2.0.15",
-        "ts-jest": "^27.1.3",
-        "ts-node": "^10.7.0",
-        "typescript": "^4.6.2"
-    },
-    "bugs": {
-        "url": "https://github.com/Yohanson555/langcode-info/issues"
-    },
-    "homepage": "https://github.com/Yohanson555/langcode-info#readme",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Yohanson555/langcode-info.git"
-    },
-    "keywords": [
-        "language",
-        "lang",
-        "js",
-        "node",
-        "code"
-    ]
+  "name": "langcode-info",
+  "version": "1.1.3",
+  "description": "Lightweight module to get language info by: code, hex code or decimal code;",
+  "main": "dist/LangInform.js",
+  "typings": "dist/LangInform.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Yohanson555",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.45",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Yohanson555/langcode-info/issues"
+  },
+  "homepage": "https://github.com/Yohanson555/langcode-info#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yohanson555/langcode-info.git"
+  },
+  "keywords": [
+    "language",
+    "lang",
+    "js",
+    "node",
+    "code"
+  ]
 }
