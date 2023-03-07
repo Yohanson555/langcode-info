@@ -2,15 +2,16 @@ import { Lang, LangData } from "./Lang";
 import Languages from "./data/lang";
 import CodeToHex from "./data/code-to-hex";
 import DecToHex from "./data/dec-to-hex";
+import LexToHex from "./data/lex-to-hex";
 
 class LangInform {
-  static langByCode(code:string): Lang {
+  static langByCode(code: string): Lang {
     if (!code || typeof code !== "string") {
       throw new Error("Invalid language code provided: string expected");
     }
 
     let hex = CodeToHex[code];
-    
+
     if (!hex) {
       throw new Error(
         "Invalid language code provided: no hex value found for code: " + code
@@ -20,7 +21,7 @@ class LangInform {
     return new Lang(Languages[hex]);
   }
 
-  static langByHex(hex:string): Lang {
+  static langByHex(hex: string): Lang {
     if (!hex || typeof hex !== "string") {
       throw new Error("Invalid language hex provided: string expected");
     }
@@ -36,7 +37,7 @@ class LangInform {
     return new Lang(lang);
   }
 
-  static langByDec(dec:string): Lang {
+  static langByDec(dec: string): Lang {
     if (!dec || (typeof dec !== "string" && typeof dec !== "number")) {
       throw new Error(
         "Invalid language decimal provided: string or number expected"
@@ -49,6 +50,25 @@ class LangInform {
       throw new Error(
         "Invalid language decimal provided: no hex value found for decimal: " +
           dec
+      );
+    }
+
+    return new Lang(Languages[hex]);
+  }
+
+  static langByLex(lex: string): Lang {
+    if (!lex || typeof lex !== "string") {
+      throw new Error(
+        "Invalid language decimal provided: string or number expected"
+      );
+    }
+
+    const hex = LexToHex[lex];
+
+    if (!hex) {
+      throw new Error(
+        "Invalid language decimal provided: no hex value found for lexem: " +
+          lex
       );
     }
 
@@ -68,4 +88,4 @@ class LangInform {
   }
 }
 
-module.exports = LangInform;
+export default LangInform;
